@@ -1,5 +1,4 @@
 "use strict";
-//import {Professional} from "./professional"
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Movie = void 0;
 var Movie = /** @class */ (function () {
