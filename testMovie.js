@@ -6,12 +6,8 @@ var m2 = new movie_1.Movie("El padrino II", 1974, "Estadounidense", "Crimen/Dram
 var m3 = new movie_1.Movie("El padrino III", 1990, "Estadounidense", "Crimen/Drama");
 var m4 = new movie_1.Movie("Shutter Island", 2010, "Estadounidense", "Drama/Suspense/Thriller");
 var m5 = new movie_1.Movie("Erase una vez en Hollywood", 2019, "Estadounidense", "Drama/Comedia");
-//let m6 : Movie = new Movie("Erase una vez en Hollywood",2019,"Estadounidense","Drama/Comedia");
 m.printAll();
 m2.printAll();
 m3.printAll();
 m4.printAll();
 m5.printAll();
-//m6.printAll();
-// m7.printAll();
-// m8.printAll();
