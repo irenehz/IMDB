@@ -14,9 +14,12 @@ var Movie = /** @class */ (function () {
         this.producer = "";
         this.distributor = "";
         this.genre = "";
+        this.actors;
+        this.director;
+        this.writer;
     }
     Movie.prototype.printAll = function () {
-        console.log(this.title, this.releaseYear, "this.actors", this.nacionality, "this.director", "this.writer", this.language, this.plataforma, this.isMCU, this.mainCharacterName, this.producer, this.distributor, this.genre);
+        console.log(this.title, this.releaseYear, this.actors, this.nacionality, this.director, this.writer, this.language, this.plataforma, this.isMCU, this.mainCharacterName, this.producer, this.distributor, this.genre);
     };
     return Movie;
 }());

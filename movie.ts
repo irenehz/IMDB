@@ -4,10 +4,10 @@ export class Movie{
 
     public title: string;
     public releaseYear: number;
-    //public actors: Professional[];
+    public actors: Professional[];
     public nacionality: string;
-    // public director: Professional;
-    // public writer: Professional;
+    public director: Professional;
+    public writer: Professional;
     public language: string;
     public plataforma: string;
     public isMCU: boolean;
@@ -29,11 +29,14 @@ export class Movie{
         this.producer = "";
         this.distributor = "";
         this.genre = "";
+        this.actors;
+        this.director;
+        this.writer;
     }
 
     public printAll(){
 
-        console.log(this.title , this.releaseYear , "this.actors" , this.nacionality , "this.director" , "this.writer" , this.language , this.plataforma ,
+        console.log(this.title , this.releaseYear , this.actors , this.nacionality , this.director, this.writer, this.language, this.plataforma ,
                     this.isMCU , this.mainCharacterName , this.producer , this.distributor , this.genre);
         
     }
