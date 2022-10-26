@@ -29,7 +29,7 @@ export class Movie{
         this.producer = "";
         this.distributor = "";
         this.genre = "";
-        this.actors;
+        this.actors = [];
         this.director;
         this.writer;
     }

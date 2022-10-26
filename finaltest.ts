@@ -48,6 +48,8 @@ m.writer = director1;
 
 let imdb : Imdb = new Imdb([m, m2, m3, m4, m5])
 
-imdb.peliculas[3].actors.push(nuevoProfesional)
+// console.log(imdb.peliculas[0].actors);
+
+imdb.peliculas[0].actors.push(nuevoProfesional)
 
 imdb.escribirEnFicheroJSON("ImdbBBDDactualizado.json")
